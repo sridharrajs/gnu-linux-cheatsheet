@@ -2,16 +2,21 @@
 
 A bunch of things to get by quickly in GNU/Linux
 
+## File manager
+
+|Description|Command|
+|-----------|-------|
+|Restarting the file manager|`pkill nautilus && nohup nautilus 2> /dev/null &`|
 
 # Terminal
 
 ## Status
-|Description|command|
+|Description|Command|
 |-----------|-------|
 |Print current working directory location| `pwd`|
 
 ## Navigation - Filesystem
-|Description|command|
+|Description|Command|
 |-----------|-------|
 |Go to home| `cd ~`|
 |Go to previous location before navigation| `cd -`|
@@ -20,7 +25,7 @@ A bunch of things to get by quickly in GNU/Linux
 
 ## Files & Folder
 
-|Description|command|
+|Description|Command|
 |-----------|-------|
 |Create a file| `touch <file_name_with_extn>`|
 |To see the content of a file| `cat <file_name>`|
@@ -28,7 +33,7 @@ A bunch of things to get by quickly in GNU/Linux
 |Create a folder and navigate to it| `mkdir <folder_name> && $$_`|
 
 ## Cut, Copy & Paste
-|Description|command|
+|Description|Command|
 |-----------|-------|
 | Cut | `Ctrl` + `Shift` + `X`|
 | Copy | `Ctrl` + `Shift` + `C`|
@@ -36,7 +41,7 @@ A bunch of things to get by quickly in GNU/Linux
 
 ## Text Manipulation
 
-|Description|command|
+|Description|Command|
 |-----------|-------|
 |Move to the beginning of the text| `Ctrl` + `A`|
 |Move to the end of the text| `Ctrl` + `E`|
