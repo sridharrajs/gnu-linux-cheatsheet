@@ -32,6 +32,12 @@ A bunch of things to get by quickly in GNU/Linux
 |Create a folder| `mkdir <folder_name>`|
 |Create a folder and navigate to it| `mkdir <folder_name> && $$_`|
 
+## Search
+
+| Description | Command |
+|-------------|---------|
+| Seach file | `find . <path> -name <filename-with-extenstion>`, `.` is to search in nested folder |
+
 ## Cut, Copy & Paste
 |Description|Command|
 |-----------|-------|
